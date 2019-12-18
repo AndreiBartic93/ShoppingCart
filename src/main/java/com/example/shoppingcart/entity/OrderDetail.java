@@ -21,7 +21,6 @@ public class OrderDetail {
     foreignKey = @ForeignKey(name ="ORDER_DETAIL_PROD_FK"))
     private Product product;
 
-
     @Column(name = "Quanity", nullable = false)
     private int quanity;
 
